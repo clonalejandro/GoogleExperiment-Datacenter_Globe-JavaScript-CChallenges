@@ -11,8 +11,8 @@ if(!Browser.GL){
 } else {
 
     var wparts = ['Europe', 'America', 'All'];
-    var container = document.getElementById('container');
-    var globe = new Data.Globe(container);
+    var gclass = document.getElementById('globe');
+    var globe = new Data.Globe(gclass);
 
     console.log(globe);
 
