@@ -10,7 +10,7 @@ if(!Browser.GL){
     Browser.addGetWebGLMessage();
 } else {
 
-    var wparts = ['Europe', 'America'];
+    var wparts = ['Europe', 'America', 'All'];
     var container = document.getElementById('container');
     var globe = new Data.Globe(container);
 
